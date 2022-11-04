@@ -1,4 +1,14 @@
 {
+  "name": "pdf",
+  "version": "1.0.0",
+  "description": "PDF tables extractor   https://github.com/kobatakuJP/pdf-table-extractor   これでいい感じに出せそう。",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "pdf-table-extractor": "^1.0.3"
   }

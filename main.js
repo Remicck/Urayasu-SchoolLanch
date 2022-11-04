@@ -1,15 +1,5 @@
-var pdf_table_extractor = require("pdf-table-extractor");
- 
-//PDF parsed
-function success(result)
-{
-   console.log('result', JSON.stringify(result));
-}
- 
-//Error
-function error(err)
-{
-   console.error('Error: ' + err);
-}
- 
-pdf_table_extractor("pdf/1013-1.pdf",success,error);
+// var pdf = require("pdf-table-extractor");
+var pdf = require("./model/pdf.js");
+
+pdf.init("pdf/01_kitchen/202211/1102-1.pdf");
+pdf.extract();
